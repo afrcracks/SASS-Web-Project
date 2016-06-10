@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+body {
+  margin: 0; }
+
+header {
+  background-image: url("../img/grey-prism-63478a91.svg");
+  font-family: DilleniaUPC, fantasy;
+  color: #85ceea;
+  font-weight: 700;
+  padding: 20px; }
+  header #header {
+    background-color: #ebebeb;
+    width: 245px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px; }
+  header p {
+    color: #424242;
+    font-size: x-large;
+    padding-left: 44px;
+    text-transform: uppercase;
+    width: 200px;
+    margin: 0; }
+  header img {
+    float: right;
+    height: 10%;
+    width: 10%;
+    margin-top: -90px;
+    margin-right: 35px; }
+  header #b-txt {
+    font-size: 100px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+    color: gray; }
+  header .navigator {
+    width: 765px;
+    margin-top: -115px;
+    margin-left: 363px; }
+    header .navigator li {
+      display: inline-block;
+      padding: 20px; }
+      header .navigator li a {
+        text-decoration: none;
+        font-size: 15px;
+        font-family: monospace;
+        color: #cb6799;
+        text-transform: uppercase; }
+
+.navigator ul li a:hover {
+  color: lightpink;
+  transition: 1s; }
+
+.glasses img {
+  padding-top: 45px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  height: 40%;
+  width: 40%; }
+.glasses p {
+  color: #669999;
+  float: right;
+  font-size: 31px;
+  font-family: 'Ubuntu', sans-serif;
+  width: 810px;
+  padding-top: 60px; }
+
+.version {
+  font-family: 'Ubuntu', sans-serif;
+  width: 100%; }
+  .version ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    .version ul li {
+      float: left;
+      padding: 15px;
+      background-color: #cb6799;
+      color: #ebebeb; }
+      .version ul li a {
+        text-decoration: none;
+        color: white; }
+
+.version ul li a:hover {
+  text-decoration: underline;
+  transition: .5s; }
+
+/*# sourceMappingURL=main_style.css.map */
